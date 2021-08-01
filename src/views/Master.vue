@@ -37,8 +37,9 @@
         <img ref="jpgfilter" v-bind:src="'data:image/jpeg;base64,'+filterjpeg" class="overlay" v-if="jpgfilter"/>
         <img ref="pngfilter" v-bind:src="'data:image/png;base64,'+filterpng" class="overlay" v-if="pngfilter"/>
         <a-scene ref="model" vr-mode-ui="enabled: false">
-          <a-entity v-if="model" position="0 0.5 0.3" rotation="0 0 0"
-              gltf-model="https://arjs-cors-proxy.herokuapp.com/https://media-uploader.work/?mode=dl&id=13751&original=1&key=dfb1aa80-f608-4834-9542-50ecba032184">
+          <a-entity v-if="model" position="0 0 -3" rotation="0 0 0"
+      gltf-model="https://arjs-cors-proxy.herokuapp.com/https://media-uploader.work/?mode=dl&id=15420&original=1&key=ddde344a-b18d-4eab-8702-f8cb4c365fe2">
+              <!-- gltf-model="https://arjs-cors-proxy.herokuapp.com/https://media-uploader.work/?mode=dl&id=13751&original=1&key=dfb1aa80-f608-4834-9542-50ecba032184"> -->
           </a-entity>
         </a-scene>
       </div>
